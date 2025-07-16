@@ -1,41 +1,76 @@
-<title>Dicereum</title>
-<style>
-	body {background: #546070; color: black; font: 10pt tahoma};
+<!DOCTYPE html>
 
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid red;
-}
+<html lang="en">
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+<head>
+  <title>Dicereum</title>
+  <meta charset ="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-a, a:active {color: #8fb4b8}
+  <style>
+    body {
+      background: #3f3c3c; 
+      color: rgb(255, 255, 255); 
+      font: 12pt tahoma;
+      margin: 0;
+    };
+    .container {
+      height: 100vh;
+      position: relative;
 
-a:visited {color: #6e878a}
+    }
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
 
-</style>
+    .link-box {
+      display: block;
+      padding: 10px 15px;
+      margin: 8px 0;
+      background-color: #4a4a4a;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+    }
+    .link-box:hover {
+      background-color: #6e878a;
+    }
 
-<div class="container">
-<div class="center" style="border:2px solid #a0dbcf;border-radius:8px;padding:40px">
+    a, a:active {color: #8fb4b8}
 
-Under Construction<br>
-<br>
-Links:<br>
-- <a href="https://github.com/dicereum" target="_">github</a>
-<br>
-- <a href="https://dicereum.miraheze.org" target="_">miraheze wiki</a>
-<br>
-- <a href="https://youtube.com/@Dicereum" target="_">youtube</a>
-<br>
-<br>
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
 
-</div>
-</div>
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="center" style="border:2px solid #ffffff; border-radius:8px; padding:40px">
+      <strong>Dicereum Project</strong> <br><br>
+      A worldbuilding project started by a few friends! <br><br>
+      
+      <em>links:</em><br>
+      <ul>
+        <li><a class="link-box" href="https://dicereum.miraheze.org">miraheze wiki</a></li>
+        <li><a class="link-box" href="https://youtube.com/@Dicereum">youtube</a></li>
+        <li><a class="link-box" href="https://bsky.app/profile/dicereum.xyz">bluesky</a></li>
+        <li><a class="link-box" href="https://github.com/dicereum/dicereum.github.io">website source code (not much)</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
