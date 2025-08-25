@@ -44,6 +44,7 @@ footer {
     padding-bottom: 0.5rem;
     background-color: #32302f; 
     font-size: 0.75rem;
+    width: 100%;
 }
 
 .content {
