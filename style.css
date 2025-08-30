@@ -50,3 +50,11 @@ footer {
 .content {
     padding: 0.5rem;
 }
+
+body.light-theme {
+    background-color: #f9f5d7;
+    color: #3c3836;
+}
+body.light-theme footer, body.light-theme header, a.light-theme {
+    color: #d5c4a1;
+}
