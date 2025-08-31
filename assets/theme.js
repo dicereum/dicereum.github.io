@@ -1,8 +1,8 @@
 /*!
  * theme.js - Theme toggler
  * Copyright (c) 2025 alexbraadworst
- * Licensed under the MIT License (MIT)
- * https://opensource.org/licenses/MIT
+ * Licensed under the Unlicense
+ * https://opensource.org/licenses/Unlicense
  */
 const toggle = document.getElementById('theme-toggle');
 const body = document.body;
